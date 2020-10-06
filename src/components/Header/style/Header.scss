@@ -6,19 +6,26 @@
 	background: #161517;
 	.header__logoContainer {
 		display: flex;
-		.header__logo {
-			height: 4vh;
-			margin-left: 0;
-			padding: 0px 1em;
-		}
-		h1 {
-			color: #ffffff;
-			font-family: 'Alfa Slab One', cursive;
+		a {
+			display: flex;
+			.header__logo {
+				height: 4vh;
+				margin-left: 0;
+				padding: 0px 1em;
+			}
+			h1 {
+				color: #ffffff;
+				font-family: 'Alfa Slab One', cursive;
+				font-size: 4vw;
+				line-height: 4.5vh;
+			}
 		}
 	}
 	ul {
 		display: flex;
 		list-style-type: none;
+		padding-right: 1em;
+		font-family: 'Poiret One', cursive;
 		a {
 			color: #ffffff;
 			margin: auto 1em;
@@ -27,6 +34,26 @@
 				color: #fff333;
 			}
 			li {
+			}
+		}
+	}
+}
+
+@media screen and (min-device-width: 1000px) {
+	.header {
+		.header__logoContainer {
+			.header__logo {
+			}
+			h1 {
+				font-size: 2rem;
+			}
+		}
+		ul {
+			a {
+				&:hover {
+				}
+				li {
+				}
 			}
 		}
 	}

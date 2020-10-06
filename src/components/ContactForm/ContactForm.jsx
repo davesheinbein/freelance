@@ -4,7 +4,11 @@ import './style/ContactForm.css';
 function ContactForm() {
 	return (
 		<div className='contactForm__Container'>
-			<h1 className='contactForm__sectionTitle'>Contact Us!</h1>
+			<h1
+				className='contactForm__sectionTitle'
+				id='Contact'>
+				Contact Us!
+			</h1>
 			<h3 className='contactForm__sectionSubTitle'>
 				Let's discuss our service today!
 			</h3>

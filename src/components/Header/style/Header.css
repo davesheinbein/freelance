@@ -16,15 +16,23 @@
   display: flex;
 }
 
-.header .header__logoContainer .header__logo {
+.header .header__logoContainer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__logoContainer a .header__logo {
   height: 4vh;
   margin-left: 0;
   padding: 0px 1em;
 }
 
-.header .header__logoContainer h1 {
+.header .header__logoContainer a h1 {
   color: #ffffff;
   font-family: 'Alfa Slab One', cursive;
+  font-size: 4vw;
+  line-height: 4.5vh;
 }
 
 .header ul {
@@ -32,6 +40,8 @@
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  padding-right: 1em;
+  font-family: 'Poiret One', cursive;
 }
 
 .header ul a {
@@ -42,5 +52,11 @@
 
 .header ul a:hover {
   color: #fff333;
+}
+
+@media screen and (min-device-width: 1000px) {
+  .header .header__logoContainer h1 {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

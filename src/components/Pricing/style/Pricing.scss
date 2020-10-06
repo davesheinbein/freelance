@@ -18,11 +18,19 @@
 .pricing__sectionSubTitle {
 	font-size: 1.5rem;
 	font-weight: 400;
-	margin-bottom: 1em;
+	margin: 1em;
 }
 
 .pricing__hostingDomainContainer {
 	@include flexDirJustAli(row, center, center);
+	background: linear-gradient(
+		to bottom,
+		rgba(253, 116, 108, 0.75),
+		rgba(255, 144, 104, 0.75)
+	);
+	border-radius: 25px;
+	padding: 1em;
+	margin: 1em;
 	.pricing__hostingDomain {
 		margin: 0em 1em;
 		@include flexDirJustAli(column, center, flex-start);

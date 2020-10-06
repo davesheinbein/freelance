@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAYA,AAAA,QAAQ,CAAC;EACR,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,OAAO;EAbhB,MAAM,EAce,WAAW;EAbhC,KAAK,EAa6B,IAAI;EATtC,OAAO,EAAE,IAAI;EACb,cAAc,EASU,MAAM;EAR9B,eAAe,EAQiB,MAAM;EAPtC,WAAW,EAO6B,MAAM;CAC9C",
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACR,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,OAAO;ECHhB,MAAM,EDIe,WAAW;ECHhC,KAAK,EDG6B,IAAI;ECCtC,OAAO,EAAE,IAAI;EACb,cAAc,EDDU,MAAM;ECE9B,eAAe,EDFiB,MAAM;ECGtC,WAAW,EDH6B,MAAM;CAC9C",
     "sources": [
-        "Section.scss"
+        "Section.scss",
+        "../../../mixins/mixins.scss"
     ],
     "names": [],
     "file": "Section.css"

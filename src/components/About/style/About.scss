@@ -11,10 +11,11 @@
 }
 
 .about__title {
-	font-size: 4rem;
+	font-size: calc(4rem - 2vw);
+	text-align: center;
 	font-weight: 900;
-    flex: 1;
-    font-family: 'Yeseva One', cursive;
+	flex: 1;
+	font-family: 'Yeseva One', cursive;
 }
 .about__subTitle {
 	font-size: 2rem;
@@ -25,24 +26,24 @@
 .about__imgContainer {
 	display: flex;
 	padding: 0em 3em;
-	p {
+	.about__statement {
 		@include flexDirJustAli(column, center, center);
 		flex: 0.5;
-		text-align: center;
-	}
-	.about__statement {
 		margin: auto 0px;
+		z-index: 3;
 	}
 	.about__img {
-		flex: 0.5;
-		max-width: 35vw;
-		// margin-top: auto;
+		flex: 0.75;
+		max-width: 50vw;
 		margin-left: auto;
-		// @include flexDirJustAli(row, flex-end, center);
+		z-index: 1;
 	}
 }
 
 .about__list {
 	font-size: 25px;
 	margin-bottom: 10vw;
+	margin: 1em;
+	margin-left: 1.5em;
+	list-style-type: circle;
 }

@@ -1,14 +1,4 @@
-@mixin heightWidth($hei, $wei) {
-	height: $hei;
-	width: $wei;
-}
-
-@mixin flexDirJustAli($direction, $justified, $alignment) {
-	display: flex;
-	flex-direction: $direction;
-	justify-content: $justified;
-	align-items: $alignment;
-}
+@import '../../../mixins/mixins.scss';
 
 .section {
 	flex: 1;

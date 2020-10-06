@@ -7,7 +7,7 @@
 .pricing__sectionSubTitle {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 1em;
+  margin: 1em;
 }
 
 .pricing__hostingDomainContainer {
@@ -24,6 +24,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(253, 116, 108, 0.75)), to(rgba(255, 144, 104, 0.75)));
+  background: linear-gradient(to bottom, rgba(253, 116, 108, 0.75), rgba(255, 144, 104, 0.75));
+  border-radius: 25px;
+  padding: 1em;
+  margin: 1em;
 }
 
 .pricing__hostingDomainContainer .pricing__hostingDomain {

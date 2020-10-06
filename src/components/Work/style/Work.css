@@ -17,12 +17,16 @@
 }
 
 .work__githubContainer .work__github {
-  white-space: nowrap;
   text-align: center;
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5;
           flex: 0.5;
   margin: 0px 2em;
+  width: 22em;
+  padding: calc(1em - 3vw - 3vh);
+  border-radius: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(253, 116, 108, 0.75)), to(rgba(255, 144, 104, 0.75)));
+  background: linear-gradient(to bottom, rgba(253, 116, 108, 0.75), rgba(255, 144, 104, 0.75));
 }
 
 .work__githubContainer .work__github .work__githubTitle {
@@ -46,6 +50,6 @@
 .work__githubContainer .work__github a .work__githubImg {
   width: 10em;
   background-position: center;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=Work.css.map */

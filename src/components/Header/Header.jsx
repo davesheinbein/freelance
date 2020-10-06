@@ -4,24 +4,26 @@ import './style/Header.css';
 
 function Header() {
 	return (
-		<div className='header'>
+		<div className='header' id='#home'>
 			<div className='header__logoContainer'>
-				<img
-					src={logo}
-					alt='logo'
-					className='header__logo'
-				/>
-				<h1>Shur Tech</h1>
+				<a href='#home'>
+					<img
+						src={logo}
+						alt='logo'
+						className='header__logo'
+					/>
+					<h1>Shur Tech</h1>
+				</a>
 			</div>
 			<ul>
-				<a href='#'>
-					<li>Hi</li>
+				<a href='#Pricing'>
+					<li>Pricing</li>
 				</a>
-				<a href='#'>
-					<li>Hi</li>
+				<a href='#Work'>
+					<li>Work</li>
 				</a>
-				<a href='#'>
-					<li>Hi</li>
+				<a href='#Contact'>
+					<li>Contact Us</li>
 				</a>
 			</ul>
 		</div>

@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+#root {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 body {
   font-family: 'Poiret One', cursive;
   overflow-y: scroll;
