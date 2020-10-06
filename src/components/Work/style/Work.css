@@ -1,0 +1,51 @@
+.work__sectionTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Yeseva One', cursive;
+}
+
+.work__sectionSubTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.work__githubContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work__githubContainer .work__github {
+  white-space: nowrap;
+  text-align: center;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  margin: 0px 2em;
+}
+
+.work__githubContainer .work__github .work__githubTitle {
+  font-size: 2rem;
+}
+
+.work__githubContainer .work__github a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.work__githubContainer .work__github a:hover {
+  color: #fff333;
+}
+
+.work__githubContainer .work__github a h4 {
+  font-weight: 100;
+}
+
+.work__githubContainer .work__github a .work__githubImg {
+  width: 10em;
+  background-position: center;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=Work.css.map */

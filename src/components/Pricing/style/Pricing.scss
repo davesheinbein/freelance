@@ -1,0 +1,43 @@
+@mixin heightWidth($hei, $wei) {
+	height: $hei;
+	width: $wei;
+}
+
+@mixin flexDirJustAli($direction, $justified, $alignment) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justified;
+	align-items: $alignment;
+}
+
+.pricing__sectionTitle {
+	font-size: 3rem;
+	font-weight: 900;
+	font-family: 'Yeseva One', cursive;
+}
+.pricing__sectionSubTitle {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+
+.pricing__hostingDomainContainer {
+	@include flexDirJustAli(row, center, center);
+	.pricing__hostingDomain {
+		margin: 0em 1em;
+		@include flexDirJustAli(column, center, flex-start);
+		.pricing__hostingDomainTitle {
+			text-align: center;
+			font-size: 1.5rem;
+		}
+		.pricing__hostingDomainLink {
+			color: #ffffff;
+			text-decoration: none;
+			&:hover {
+				color: #fff333;
+			}
+			.pricing__hostingDomainText {
+			}
+		}
+	}
+}

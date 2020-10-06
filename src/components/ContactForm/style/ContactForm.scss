@@ -1,0 +1,43 @@
+.contactForm__Container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.contactForm__sectionTitle {
+		font-size: 3rem;
+		font-weight: 900;
+		font-family: 'Yeseva One', cursive;
+	}
+	.contactForm__sectionSubTitle {
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin-bottom: 1em;
+	}
+	.contact__form {
+		background: linear-gradient(
+			to top,
+			rgb(255, 244, 165),
+			rgb(105, 163, 233)
+		);
+		padding: 1em;
+		border-radius: 25px;
+		width: 45vw;
+		.contactForm__inputSection {
+			margin: 1em 0px;
+			.input-block {
+				display: flex;
+				flex-direction: column;
+				.form-control {
+					outline: none;
+					width: 96%;
+					resize: none;
+					padding: 5px;
+					overflow-y: scroll;
+					&::-webkit-scrollbar {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

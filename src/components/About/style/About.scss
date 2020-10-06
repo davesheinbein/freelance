@@ -1,0 +1,48 @@
+@mixin heightWidth($hei, $wei) {
+	height: $hei;
+	width: $wei;
+}
+
+@mixin flexDirJustAli($direction, $justified, $alignment) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justified;
+	align-items: $alignment;
+}
+
+.about__title {
+	font-size: 4rem;
+	font-weight: 900;
+    flex: 1;
+    font-family: 'Yeseva One', cursive;
+}
+.about__subTitle {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+
+.about__imgContainer {
+	display: flex;
+	padding: 0em 3em;
+	p {
+		@include flexDirJustAli(column, center, center);
+		flex: 0.5;
+		text-align: center;
+	}
+	.about__statement {
+		margin: auto 0px;
+	}
+	.about__img {
+		flex: 0.5;
+		max-width: 35vw;
+		// margin-top: auto;
+		margin-left: auto;
+		// @include flexDirJustAli(row, flex-end, center);
+	}
+}
+
+.about__list {
+	font-size: 25px;
+	margin-bottom: 10vw;
+}

@@ -1,0 +1,62 @@
+.contactForm__Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactForm__Container .contactForm__sectionTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Yeseva One', cursive;
+}
+
+.contactForm__Container .contactForm__sectionSubTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.contactForm__Container .contact__form {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff4a5), to(#69a3e9));
+  background: linear-gradient(to top, #fff4a5, #69a3e9);
+  padding: 1em;
+  border-radius: 25px;
+  width: 45vw;
+}
+
+.contactForm__Container .contact__form .contactForm__inputSection {
+  margin: 1em 0px;
+}
+
+.contactForm__Container .contact__form .contactForm__inputSection .input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactForm__Container .contact__form .contactForm__inputSection .input-block .form-control {
+  outline: none;
+  width: 96%;
+  resize: none;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.contactForm__Container .contact__form .contactForm__inputSection .input-block .form-control::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=ContactForm.css.map */

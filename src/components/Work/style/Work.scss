@@ -1,0 +1,38 @@
+.work__sectionTitle {
+	font-size: 3rem;
+	font-weight: 900;
+	font-family: 'Yeseva One', cursive;
+}
+.work__sectionSubTitle {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+.work__githubContainer {
+	display: flex;
+	.work__github {
+		white-space: nowrap;
+		text-align: center;
+		flex: 0.5;
+		margin: 0px 2em;
+		.work__githubTitle {
+			font-size: 2rem;
+		}
+		a {
+			text-decoration: none;
+			font-size: 1.5rem;
+			color: #ffffff;
+			&:hover {
+				color: #fff333;
+			}
+			h4 {
+				font-weight: 100;
+			}
+			.work__githubImg {
+				width: 10em;
+				background-position: center;
+				border-radius: 25px;
+			}
+		}
+	}
+}

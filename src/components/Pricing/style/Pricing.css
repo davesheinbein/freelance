@@ -1,0 +1,59 @@
+.pricing__sectionTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Yeseva One', cursive;
+}
+
+.pricing__sectionSubTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.pricing__hostingDomainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing__hostingDomainContainer .pricing__hostingDomain {
+  margin: 0em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.pricing__hostingDomainContainer .pricing__hostingDomain .pricing__hostingDomainTitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.pricing__hostingDomainContainer .pricing__hostingDomain .pricing__hostingDomainLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pricing__hostingDomainContainer .pricing__hostingDomain .pricing__hostingDomainLink:hover {
+  color: #fff333;
+}
+/*# sourceMappingURL=Pricing.css.map */

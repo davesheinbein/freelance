@@ -1,0 +1,59 @@
+.about__title {
+  font-size: 4rem;
+  font-weight: 900;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: 'Yeseva One', cursive;
+}
+
+.about__subTitle {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.about__imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0em 3em;
+}
+
+.about__imgContainer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  text-align: center;
+}
+
+.about__imgContainer .about__statement {
+  margin: auto 0px;
+}
+
+.about__imgContainer .about__img {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  max-width: 35vw;
+  margin-left: auto;
+}
+
+.about__list {
+  font-size: 25px;
+  margin-bottom: 10vw;
+}
+/*# sourceMappingURL=About.css.map */

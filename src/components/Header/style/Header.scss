@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 4vh;
+	background: #161517;
+	.header__logoContainer {
+		display: flex;
+		.header__logo {
+			height: 4vh;
+			margin-left: 0;
+			padding: 0px 1em;
+		}
+		h1 {
+			color: #ffffff;
+			font-family: 'Alfa Slab One', cursive;
+		}
+	}
+	ul {
+		display: flex;
+		list-style-type: none;
+		a {
+			color: #ffffff;
+			margin: auto 1em;
+			text-decoration: none;
+			&:hover {
+				color: #fff333;
+			}
+			li {
+			}
+		}
+	}
+}
