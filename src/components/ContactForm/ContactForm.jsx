@@ -33,13 +33,13 @@ function ContactForm() {
 				</div>
 				<div className='contactForm__inputSection'>
 					<div className='input-block'>
-						<label for=''>Message Subject</label>
+						<label for=''>Subject</label>
 						<input type='text' className='form-control' />
 					</div>
 				</div>
 				<div className='contactForm__inputSection'>
 					<div className='input-block textarea'>
-						<label for=''>Drop your message here</label>
+						<label for=''>Message</label>
 						<textarea
 							rows='3'
 							type='text'

@@ -12,6 +12,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .contactForm__Container .contactForm__sectionTitle {
@@ -48,6 +59,11 @@
           flex-direction: column;
 }
 
+.contactForm__Container .contact__form .contactForm__inputSection .input-block label {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 .contactForm__Container .contact__form .contactForm__inputSection .input-block .form-control {
   outline: none;
   width: 96%;
@@ -61,6 +77,7 @@
 }
 
 .contactForm__Container .contact__form .contactForm__inputSection .contactForm__btn {
+  width: 100%;
   padding: 0.5em 1em;
   border-radius: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(253, 116, 108, 0.75)), to(rgba(255, 144, 104, 0.75)));

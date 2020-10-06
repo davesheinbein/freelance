@@ -1,9 +1,12 @@
+@import '../../../mixins/mixins.scss';
+
 .header {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	height: 4vh;
 	background: #161517;
+	@include noSelection;
 	.header__logoContainer {
 		display: flex;
 		a {

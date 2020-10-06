@@ -2,18 +2,51 @@
   font-size: 3rem;
   font-weight: 900;
   font-family: 'Yeseva One', cursive;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .work__sectionSubTitle {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 1em;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .work__githubContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .work__githubContainer .work__github {
@@ -23,7 +56,7 @@
           flex: 0.5;
   margin: 0px 2em;
   width: 22em;
-  padding: calc(1em - 3vw - 3vh);
+  padding: 1vh calc(1em - 3vw);
   border-radius: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(253, 116, 108, 0.75)), to(rgba(255, 144, 104, 0.75)));
   background: linear-gradient(to bottom, rgba(253, 116, 108, 0.75), rgba(255, 144, 104, 0.75));
