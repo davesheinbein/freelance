@@ -31,7 +31,7 @@ function Pricing() {
 									href='https://firebase.google.com/pricing'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										Firebase - Hosting
+										Firebase
 									</h4>
 								</a>
 							</Grid>
@@ -40,7 +40,7 @@ function Pricing() {
 									href='https://www.heroku.com/pricing'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										Heroku - Hosting
+										Heroku
 									</h4>
 								</a>
 							</Grid>
@@ -49,7 +49,7 @@ function Pricing() {
 									href='https://aws.amazon.com/free/webapps/?trk=ps_a134p000004ew3TAAQ&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=Google&sc_category=Websites&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20website%20hosting%20pricing&sc_content=Website%20Hosting_e&sc_matchtype=e&sc_segment=463369380671&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Websites|Solution|US|EN|Text&s_kwcid=AL!4422!3!463369380671!e!!g!!aws%20website%20hosting%20pricing&ef_id=CjwKCAjwiOv7BRBREiwAXHbv3CEIqhnV_q483qpXtxKtoFQUsYUStyTDyrz83w0v45vETZyaBFaOuxoCdIoQAvD_BwE:G:s&s_kwcid=AL!4422!3!463369380671!e!!g!!aws%20website%20hosting%20pricing'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										AWS S3 - Hosting
+										AWS S3
 									</h4>
 								</a>
 							</Grid>
@@ -68,7 +68,7 @@ function Pricing() {
 									href='https://www.namecheap.com/domains/'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										Namecheap - Domain Names
+										Namecheap
 									</h4>
 								</a>
 							</Grid>
@@ -77,7 +77,7 @@ function Pricing() {
 									href='https://www.godaddy.com/offers/domains/godaddy-domains?isc=gofdh073&gclid=CjwKCAjwiOv7BRBREiwAXHbv3JfrpXD6gS0CoXUbw31cuQe7w0hLiJPuIugJ0L6GEPhRCMXS7LYBFhoClzMQAvD_BwE&gclsrc=aw.ds'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										Go Daddy - Domain Names
+										Go Daddy
 									</h4>
 								</a>
 							</Grid>
@@ -86,7 +86,7 @@ function Pricing() {
 									href='https://domains.google/'
 									class='pricing__hostingDomainLink'>
 									<h4 class='pricing__hostingDomainText'>
-										Google Domains - Domain Names
+										Google Domains
 									</h4>
 								</a>
 							</Grid>

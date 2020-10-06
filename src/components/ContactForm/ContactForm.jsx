@@ -47,7 +47,7 @@ function ContactForm() {
 					</div>
 				</div>
 				<div className='contactForm__inputSection'>
-					<button className='square-button'>Send</button>
+					<button className='contactForm__btn'>Send</button>
 				</div>
 			</form>
 		</div>
