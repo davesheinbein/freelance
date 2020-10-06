@@ -1,14 +1,4 @@
-@mixin heightWidth($hei, $wei) {
-	height: $hei;
-	width: $wei;
-}
-
-@mixin flexDirJustAli($direction, $justified, $alignment) {
-	display: flex;
-	flex-direction: $direction;
-	justify-content: $justified;
-	align-items: $alignment;
-}
+@import '../../../mixins/mixins.scss';
 
 .about__title {
 	font-size: calc(4rem - 2vw);
@@ -16,17 +6,20 @@
 	font-weight: 900;
 	flex: 1;
 	font-family: 'Yeseva One', cursive;
+	@include noSelection;
 }
 .about__subTitle {
 	font-size: 2rem;
 	font-weight: 400;
 	margin-bottom: 1em;
+	@include noSelection;
 }
 
 .about__imgContainer {
 	display: flex;
 	padding: 0em 3em;
-	margin: 0px calc(auto - 5em);
+	margin: 0px calc(10em - 5em);
+	@include noSelection;
 	.about__statement {
 		font-size: 1.5rem;
 		@include flexDirJustAli(column, center, center);
@@ -43,6 +36,7 @@
 }
 
 .about__list {
+	@include noSelection;
 	font-size: 1.5rem;
 	margin-bottom: 10vw;
 	margin: 1em;

@@ -1,9 +1,12 @@
+@import '../../../mixins/mixins.scss';
+
 .header {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	height: 4vh;
 	background: #161517;
+	@include noSelection;
 	.header__logoContainer {
 		display: flex;
 		a {
@@ -39,7 +42,7 @@
 	}
 }
 
-@media screen and (min-device-width: 1000px) {
+@media (max-device-width: 530px) {
 	.header {
 		.header__logoContainer {
 			a {
@@ -47,7 +50,30 @@
 				.header__logo {
 				}
 				h1 {
-					font-size: 2rem;
+				}
+			}
+		}
+		ul {
+			a {
+				&:hover {
+				}
+				li {
+					font-size: 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media (min-device-width: 1000px) {
+	.header {
+		.header__logoContainer {
+			a {
+				text-decoration: none;
+				.header__logo {
+				}
+				h1 {
+					font-size: 1rem;
 				}
 			}
 		}

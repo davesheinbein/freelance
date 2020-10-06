@@ -1,24 +1,16 @@
-@mixin heightWidth($hei, $wei) {
-	height: $hei;
-	width: $wei;
-}
-
-@mixin flexDirJustAli($direction, $justified, $alignment) {
-	display: flex;
-	flex-direction: $direction;
-	justify-content: $justified;
-	align-items: $alignment;
-}
+@import '../../../mixins/mixins.scss';
 
 .pricing__sectionTitle {
 	font-size: 3rem;
 	font-weight: 900;
 	font-family: 'Yeseva One', cursive;
+	@include noSelection;
 }
 .pricing__sectionSubTitle {
 	font-size: 1.5rem;
 	font-weight: 400;
 	margin: 1em;
+	@include noSelection;
 }
 
 .pricing__hostingDomainContainer {
@@ -34,6 +26,7 @@
 	.pricing__hostingDomain {
 		margin: 0em 1em;
 		@include flexDirJustAli(column, center, flex-start);
+		@include noSelection;
 		.pricing__hostingDomainTitle {
 			text-align: center;
 			font-size: 1.5rem;

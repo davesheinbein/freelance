@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	@include noSelection;
 	.contactForm__sectionTitle {
 		font-size: 3rem;
 		font-weight: 900;
@@ -29,18 +30,25 @@
 			.input-block {
 				display: flex;
 				flex-direction: column;
+				label {
+					font-size: 1.5rem;
+					font-weight: 900;
+				}
 				.form-control {
 					outline: none;
 					width: 96%;
 					resize: none;
 					padding: 5px;
 					overflow-y: scroll;
+				}
+				.textarea {
 					&::-webkit-scrollbar {
 						display: none;
 					}
 				}
 			}
 			.contactForm__btn {
+				width: 100%;
 				padding: 0.5em 1em;
 				border-radius: 25px;
 				background: $bgGradient;
