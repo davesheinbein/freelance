@@ -55,7 +55,10 @@
 }
 
 @media screen and (min-device-width: 1000px) {
-  .header .header__logoContainer h1 {
+  .header .header__logoContainer a {
+    text-decoration: none;
+  }
+  .header .header__logoContainer a h1 {
     font-size: 2rem;
   }
 }

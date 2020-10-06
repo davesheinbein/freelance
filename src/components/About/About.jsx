@@ -5,7 +5,9 @@ import './style/About.css';
 function About() {
 	return (
 		<>
-			<h1 class='about__title'>Freelancing Services</h1>
+			<h1 class='about__title' id='about'>
+				Freelancing Services
+			</h1>
 			<h3 class='about__subTitle'>Simple, Easy, Fair...</h3>
 			<div class='about__imgContainer'>
 				<h1 className='about__statement'>

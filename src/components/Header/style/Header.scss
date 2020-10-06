@@ -42,10 +42,13 @@
 @media screen and (min-device-width: 1000px) {
 	.header {
 		.header__logoContainer {
-			.header__logo {
-			}
-			h1 {
-				font-size: 2rem;
+			a {
+				text-decoration: none;
+				.header__logo {
+				}
+				h1 {
+					font-size: 2rem;
+				}
 			}
 		}
 		ul {
