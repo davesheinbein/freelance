@@ -41,7 +41,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 0em 3em;
-  margin: 0px calc(auto - 5em);
+  margin: 0px calc(10em - 5em);
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;

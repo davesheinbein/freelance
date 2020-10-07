@@ -40,6 +40,8 @@
 					resize: none;
 					padding: 5px;
 					overflow-y: scroll;
+				}
+				.textarea {
 					&::-webkit-scrollbar {
 						display: none;
 					}

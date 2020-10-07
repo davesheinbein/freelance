@@ -72,7 +72,7 @@
   overflow-y: scroll;
 }
 
-.contactForm__Container .contact__form .contactForm__inputSection .input-block .form-control::-webkit-scrollbar {
+.contactForm__Container .contact__form .contactForm__inputSection .input-block .textarea::-webkit-scrollbar {
   display: none;
 }
 

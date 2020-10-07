@@ -65,12 +65,21 @@
   color: #fff333;
 }
 
-@media screen and (min-device-width: 1000px) {
+@media (max-device-width: 530px) {
+  .header .header__logoContainer a {
+    text-decoration: none;
+  }
+  .header ul a li {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-device-width: 1000px) {
   .header .header__logoContainer a {
     text-decoration: none;
   }
   .header .header__logoContainer a h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=Header.css.map */

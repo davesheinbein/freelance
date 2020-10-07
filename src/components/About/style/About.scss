@@ -18,7 +18,7 @@
 .about__imgContainer {
 	display: flex;
 	padding: 0em 3em;
-	margin: 0px calc(auto - 5em);
+	margin: 0px calc(10em - 5em);
 	@include noSelection;
 	.about__statement {
 		font-size: 1.5rem;

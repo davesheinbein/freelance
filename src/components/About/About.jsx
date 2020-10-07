@@ -5,18 +5,18 @@ import './style/About.css';
 function About() {
 	return (
 		<>
-			<h1 class='about__title' id='about'>
+			<h1 className='about__title' id='about'>
 				Freelancing Services
 			</h1>
-			<h3 class='about__subTitle'>Simple, Easy, Fair...</h3>
-			<div class='about__imgContainer'>
+			<h3 className='about__subTitle'>Simple, Easy, Fair...</h3>
+			<div className='about__imgContainer'>
 				<h1 className='about__statement'>
 					We create clean and effective websites for your
 					company! Whether you want a website made from
 					scratch or with a particular platform, we got you!
 				</h1>
 				<img
-					class='about__img'
+					className='about__img'
 					src={freelance}
 					alt='freelance'
 				/>
