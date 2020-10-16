@@ -3,9 +3,12 @@
 .header {
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
 	width: 100%;
 	height: 4vh;
 	background: #161517;
+	z-index: 3;
 	@include noSelection;
 	.header__logoContainer {
 		display: flex;

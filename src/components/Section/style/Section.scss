@@ -2,7 +2,7 @@
 
 .section {
 	flex: 1;
-	padding: 2em 0em;
+	padding: 3em 0em;
 	@include heightWidth(fit-content, 100%);
 	@include flexDirJustAli(column, center, center);
 }

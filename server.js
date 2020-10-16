@@ -6,8 +6,7 @@ const cors = require('cors');
 const sgMail = require('@sendgrid/mail');
 const app = express();
 
-require('dotenv').config();
-require('dotenv').config({ path: '.sendgrid.env' })
+require('dotenv').config({ path: '.sendgrid.env' });
 
 app.use(cors());
 app.use(logger('dev'));
@@ -17,7 +16,10 @@ app.use(
 );
 app.use(express.static(path.join(__dirname, 'build')));
 // SendGrid Key
+const toEmail = process.env.TO_EMAIL;
+const fromEmail = process.env.FROM_EMAIL;
 const sendGridKey = process.env.SENDGRID_API_KEY;
+// console.log(sendGridKey, '<< api key');
 sgMail.setApiKey(sendGridKey);
 // Welcome page of the express server:
 app.get('/', (req, res) => {
@@ -28,16 +30,25 @@ app.get('/send-email', (req, res) => {
 	// Get Variable query string
 	const { recipient, sender, topic, text } = req.query;
 	const msg = {
-		to: recipient,
-		from: sender,
-		subject: topic,
-		text: text,
+		to: toEmail,
+		from: fromEmail,
+		subject: sender + ' : ' + topic + ' : ' + recipient,
+		text:
+			'Name: ' +
+			recipient +
+			'From: ' +
+			sender +
+			'Message: ' +
+			text,
 	};
 	// send Email
 	sgMail
 		.send(msg)
 		.then(() =>
 			console.log(msg, '<<< msg', text, '<<< text')
+		)
+		.catch((error) =>
+			console.log(error.response.body.errors)
 		);
 });
 app.get('/*', function (req, res) {
