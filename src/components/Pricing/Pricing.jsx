@@ -79,7 +79,7 @@ function Pricing() {
 									<h4 className='pricing__hostingDomainText'>
 										Go Daddy
 									</h4>
-								</a>``
+								</a>
 							</Grid>
 							<Grid item xs={12}>
 								<a
