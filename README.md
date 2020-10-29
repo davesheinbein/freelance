@@ -32,7 +32,13 @@
 
 ##### 4. JavaScript
 
-##### 5. Github
+##### 5. SendGrid
+
+##### 6. Express
+
+##### 7. Github
+
+##### 8. Firebase
 
 ## Potential Next Steps:
 
